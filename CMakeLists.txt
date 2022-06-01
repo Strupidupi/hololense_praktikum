@@ -26,7 +26,7 @@ catkin_package(CATKIN_DEPENDS
 	sensor_msgs
 )
 
-catkin_install_python(PROGRAMS scripts/hololense_subscriber_node.py
+catkin_install_python(PROGRAMS scripts/hololense_subscriber_node.py scripts/visualize_recorded_data_node.py scripts/bag_to_csv.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
 
